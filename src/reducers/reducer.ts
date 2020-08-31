@@ -1,9 +1,9 @@
 import { AnyAction } from "redux";
 
+import { createFullGrid } from 'utils'
 
 import { IReducer } from './interfaces'
 import * as types from './types'
-import createFullGrid from "../utils/create-full-grid";
 
 const initialState: IReducer = {}
 
