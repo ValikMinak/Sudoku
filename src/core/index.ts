@@ -1,1 +1,1 @@
-export * from "./servise-worker"
+export * from './service-worker'
